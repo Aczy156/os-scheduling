@@ -2,7 +2,7 @@
 <a-card title="Waiting" :bordered="false">
     <a-table :columns="columns" :dataSource="childWaiting">
         <a slot="PID" slot-scope="text" href="javascript:;">{{text}}</a>
-        <span slot="customtitle">
+        <span slot="customTitle">
             PID
         </span>
         <span slot="action" slot-scope="text">
